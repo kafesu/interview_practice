@@ -31,9 +31,3 @@ def decode(text=""):
             number = ""
     
     return decoded_text
-
-encoded_text = encode("A")
-print(encoded_text)
-
-decoded_text = decode(encoded_text)
-print(decoded_text)
